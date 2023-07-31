@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0;
+}
+
+body {
+    background: #ffffff;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #126a0f;
+}
+
+ul > li {
+    padding-right: 15px;
+}
+
+ul > li:hover {
+    color: orange;
+}
+
+#h-510 {
+    height: 510px;
+    object-fit: cover;
+    opacity: 20%;
+}
+
+.carousel-caption {
+    bottom: 12rem;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+#isi {
+    font-size: 30px;
+    font-weight:100;
+}
+
+.py-5 {
+    padding-top: 15rem!important;
+}
+
+.biru {
+    height: 17rem!important;
+    background: radial-gradient(circle, hsla(198, 87%, 24%, 1) 0%, hsla(198, 69%, 32%, 1) 41%, hsla(198, 87%, 24%, 1) 100%);
+}
+
+#biru p{
+    font-size: 32px;
+    padding-top: 3rem!important;
+    margin-bottom: 0;
+}
+
+span {
+    font-size: 18px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.blog img {
+    height: 210px;
+    width: 30%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.blog .title {
+    font-size: 38px;
+    font-weight: bold;   
+}
+
+.title {
+    margin-top: 3rem!important;
+    margin-left: 5rem!important;
+}
+
+.title p {
+    margin-bottom: 3rem!important;
+}
+
+span.dna {
+    color: #8a8a8a;
+    font-size: 15px;
+    font-weight:600;
+}
+
+.konten {
+    margin-left: 5rem!important;
+}
+
+.konten span:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 543px) {
+    .container {
+        display: none;  
+    }
+}
+
+@media only screen and (max-width: 484px) {
+    .custom-mx {
+        margin-right: 0.5rem!important;
+        margin-left: 0.5rem!important;
+     }
+}
+
+@media only screen and (max-width: 404px) {
+    .custom-mx {
+        margin-right: -0.5rem!important;
+        margin-left: -0.5rem!important;
+     }
+}
+
+@media only screen and (max-width: 372px) {
+    body {
+        width: 100%;
+    }
+    .custom-mx {
+        margin-right: -1.2rem!important;
+        margin-left: -1.2rem!important;
+     }
+     ul.custom-mx {
+        text-align: center!important;
+        list-style: none;
+     }
+     ul {
+        display: grid;
+     }
+     .sticky-top {
+        position: relative;
+     }
+
+     #biru p {
+        font-size: 18px;
+     }
+     span {
+        font-size: 10px;
+     }
+     div p{
+        font-size: 8px;
+     }
+     .custom-class div a {
+        font-size: 14px;
+     }
+}
