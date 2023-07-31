@@ -1,2 +1,2 @@
 # cms-web-sekolah
-Content Management System Web Sekolah menggunakan PHP Native.
+Content Management System Web Sekolah menggunakan Native PHP.
